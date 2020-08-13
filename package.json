@@ -1,26 +1,59 @@
 {
-  "name": "healthmonitoring_backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "healthmonitoring",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
-  "author": "Nebi Mucaj",
-  "license": "ISC",
   "dependencies": {
-    "chai-http": "^4.3.0",
-    "express": "^4.17.1",
-    "mysql": "^2.18.1",
-    "swagger-jsdoc": "^4.0.0",
-    "swagger-ui-express": "^4.1.4"
+    "@fullcalendar/interaction": "^4.4.0",
+    "@fullcalendar/timegrid": "^4.4.0",
+    "bootstrap": "^4.4.1",
+    "core-js": "^3.6.4",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "vue": "^2.6.11",
+    "vue-beautiful-chat": "^2.3.1",
+    "vue-jwt-decode": "^0.1.0",
+    "vue-quick-chat": "^1.2.0",
+    "vue-router": "^3.1.6",
+    "vue-search-select": "^2.9.3",
+    "vue-swal": "^1.0.0",
+    "vue-sweetalert-icons": "^4.2.0",
+    "vue-sweetalert2": "^3.0.3",
+    "y": "^0.3.2"
   },
   "devDependencies": {
-    "body-parser": "^1.19.0",
-    "chai": "^4.2.0",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "nodemon": "^2.0.3"
-  }
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
